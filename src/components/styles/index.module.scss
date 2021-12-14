@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  &__title{
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__btn{
+    color: white;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    max-width: 250px;
+    border-radius: 4px;
+    background-color: #0656F8;
+    text-transform: uppercase;
+
+    &:hover{
+      background-color: #276FFF;
+    }
+  }
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
